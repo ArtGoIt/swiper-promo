@@ -1,0 +1,65 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ff000029;
+  opacity: 0;
+  pointer-events: none;
+  overflow-y: scroll;
+  transition: opacity 250ms ease-in-out;
+}
+
+.backdrop.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+
+.form-close {
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.form {
+  width: 300px;
+  padding: 30px;
+  border-radius: 8px;
+  background-color: aliceblue;
+}
+.form-title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.4;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-input {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.form-btn {
+  align-self: center;
+  padding: 10px 15px;
+  border: 1px solid thistle;
+  border-radius: 3px;
+  background-color: steelblue;
+}
