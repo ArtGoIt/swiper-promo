@@ -12,6 +12,7 @@
   pointer-events: none;
   overflow-y: scroll;
   transition: opacity 250ms ease-in-out;
+  z-index: 10000;
 }
 
 .backdrop.is-open {
