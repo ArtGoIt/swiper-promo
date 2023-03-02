@@ -1,5 +1,3 @@
-@import 'swiper/css/bundle';
-
 .slider {
   background-color: #ebe1d299;
 }
@@ -48,24 +46,3 @@
   line-height: 1.5;
 }
 /* ------ */
-
-.slider-pagination {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.slider-pagination .swiper-pagination-bullet {
-  width: 20px;
-  height: 20px;
-  background-color: red;
-  opacity: 1;
-}
-
-.slider-pagination .swiper-pagination-bullet:not(:last-child) {
-  margin-right: 20px;
-}
-
-.slider-pagination .swiper-pagination-bullet-active {
-  background-color: black;
-}
