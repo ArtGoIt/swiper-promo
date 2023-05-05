@@ -1,3 +1,5 @@
+@import 'swiper/css/bundle';
+
 .slider {
   background-color: #ebe1d299;
 }
@@ -17,6 +19,7 @@
 
 .slider-list {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .slider-item-img {
@@ -45,3 +48,18 @@
   line-height: 1.5;
 }
 /* ------ */
+
+.swiper-slider {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.swiper-slider .swiper-pagination-bullet {
+  background-color: red;
+  opacity: 1;
+}
+
+.swiper-slider .swiper-pagination-bullet-active {
+  background: #06071b;
+}
