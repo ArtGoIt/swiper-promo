@@ -1,3 +1,5 @@
+@import 'swiper/css/bundle';
+
 .slider {
   background-color: #ebe1d299;
 }
@@ -17,6 +19,7 @@
 
 .slider-list {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .slider-item-img {
@@ -46,3 +49,25 @@
 }
 
 /* ------ */
+
+/* .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0 30px;
+} */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination .swiper-pagination-bullet {
+  background-color: red;
+  opacity: 1;
+  width: 30px;
+  height: 30px;
+}
+
+.pagination .swiper-pagination-bullet-active {
+  background-color: teal;
+}
